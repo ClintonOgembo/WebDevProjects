@@ -113,8 +113,19 @@
       padding: 50px;
     }
 
-    .container {
-      width: 100%;
+    .footer {
+      padding-right: 0px;
+      padding-left: 50px;
+    }
+
+    .links {
+      padding-left: 100px;
+    }
+
+    h2 {
+      text-align: center;
+      padding: 10px;
+      margin: 30px;
     }
   </style>
 
@@ -200,20 +211,20 @@
   <!-- Testimonial -->
   <section id="testimonial">
     <h2>"I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof."</h2>
-    <div class="dog"><img src="./images/dog-img.jpg" alt="dog pic">
+    <div class="dog"><img src="./images/dog-img.jpg" class="mx-auto d-block" alt="dog pic">
       <p>Pebbles, New York</p>
     </div>
-    <div class="row cols-lg-3 col-sm-12 partners">
-      <div>
+    <div class="row justify-content-center partners">
+      <div class="col-lg-3 col-sm-12 text-center">
         <img src="./images/techcrunch.png" alt="tech image" width="150px">
       </div>
-      <div class="mash">
+      <div class="col-lg-3 col-sm-12 text-center">
         <img src="./images/mashable.png" alt="mash-image" width="150px">
       </div>
-      <div class="biz">
+      <div class="col-lg-3 col-sm-12 text-center">
         <img src="./images/bizinsider.png" alt="imag" width="160px">
       </div>
-      <div class="tnw">
+      <div class="col-lg-3 col-sm-12 text-center">
         <img src="./images/tnw.png" alt="imag" width="90px">
       </div>
     </div>
@@ -276,12 +287,12 @@
   </section>
   <!-- Footer -->
   <section id="footer">
-    <div class="container gradient-background">
+    <div class="gradient-background footer">
       <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
         <div class="col">
           <p class="text-body-secondary">© 2025</p>
         </div>
-        <div class="col mb-3">
+        <div class="col links">
           <h5>Section</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
@@ -291,7 +302,7 @@
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
           </ul>
         </div>
-        <div class="col mb-3">
+        <div class="col">
           <h5>Section</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
