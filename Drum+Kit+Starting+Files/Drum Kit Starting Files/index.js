@@ -10,7 +10,7 @@ for (let i = 0; i < myArray; i++) {
                 var crash = new Audio("sounds/crash.mp3");
                 crash.play();
             case "a":
-                var kick = new Audio("sounds/kick.mp3");
+                var kick = new Audio("sounds/kick-bass.mp3");
                 kick.play();
                 break;
             case "s":
@@ -39,9 +39,7 @@ for (let i = 0; i < myArray; i++) {
     });
 }
 
-/**
- * function handleClick() {
-    var audio = new Audio("sounds/tom-1.mp3");
-    audio.play();
-}
- */
+document.addEventListener("keypress", function (event) {
+    console.log(event);
+    alert("key pressed");
+})
