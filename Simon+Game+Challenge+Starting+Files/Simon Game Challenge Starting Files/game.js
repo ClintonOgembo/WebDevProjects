@@ -7,10 +7,5 @@ function nextSequence() {
     gamePattern.push(randomChosenColour);
 }
 
-$("#" + randomChosenColour).animate({
-    opacity: 0.25,
-    left: "+=50",
-    height: "toggle"
-}, 5000, function () {
-    // Animation complete.
-});;
+$("#" + randomChosenColour).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
+
